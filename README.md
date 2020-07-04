@@ -26,7 +26,7 @@ Simulated drone model which flies to a given destination along with obstacle avo
    
    * [Contributors](#contributors)
    
-   * [Acknowledgements and Resources](#acknowledgements-and-resources)
+   * [Acknowledgements and Resources](#acknowledgement-and-resources)
    
    * [License](#License)
 

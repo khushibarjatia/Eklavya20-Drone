@@ -1,5 +1,5 @@
-#Eklavya20-Drone
-Drone simulation project
+# Eklavya20-Drone
+
 # DRONE SIMULATION PROJECT
 Simulated drone model which flies to a given destination along with obstacle avoidance. 
 
@@ -26,7 +26,7 @@ c)PYTHON:- Python is a powerful  and user-friendly language which we have used t
  
  1.ROS Installed:
  
-    To install ROS, visit the following link: http://wiki.ros.org/ROS/Installation 
+    To install ROS, visit the following link: http://wiki.ros.org/ROS/Installation
     We have used ROS Kinetic distro.
     
  2. Gazebo Installed:
@@ -50,7 +50,14 @@ c)PYTHON:- Python is a powerful  and user-friendly language which we have used t
     git clone https://github.com/pkjagesia/Eklavya20-Drone.git 
 
 ## USAGE:
-TODO: Write usage instructions
+ 
+ To use our project:
+ 
+ Open the desired world in gazebo simulator. Then run the following commands:
+ ```
+ roslaunch hector_quadrotor_demo put_robot_in_world.launch
+ rosrun simple_controller obstacle_avd.py
+ ```
 ##   RESULTS AND DEMO
 TODO: Write a project description.
 ## FUTURE ASPECTS AND GOALS WE WANT TO ACHIEVE THROUGH THE PROJECT:-

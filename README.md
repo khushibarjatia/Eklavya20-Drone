@@ -50,7 +50,13 @@ Contour detection is based on detecting the outline of the object within the env
 These are our future aspects of the project.
 
 ## TROUBLESHOOTING AND ERRORS:-
-TODO:WRITE DESCRIPTION
+TERM | DETAIL
+-----|-------
+Problem | The laserscan data was giving error values
+Cause | It was detecting the landing gear of the drone
+Solution | Changed the minimum range of detection from 0.08 to 0.1 
+
+
 ## CONTRIBUTORS
 TODO: Write
 ## ACKNOWLEDGE AND RESOURCES

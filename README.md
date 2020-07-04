@@ -170,7 +170,7 @@ Solution|Changed the algorithm for goal-to-goal to consist of left-right turns
 
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)( ./LICENSE.md)
 
-Licensed under the [MIT License](LICENSE.md) .
+Licensed under the [MIT License (MIT)](LICENSE.md) .
 
 Copyright(c) 2020 Prerna Jagesia,Prachiti Barge,Samina Attari and Khushi Barjatia
-Go to [License](Eklavya20-Drone/license) for full license
+Go to [License](Eklavya20-Drone/LICENSE) for full license

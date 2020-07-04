@@ -34,7 +34,7 @@ Simulated drone model which flies to a given destination along with obstacle avo
 GOALS WE AIM TO ACHIEVE :-
 We aim to achieve obstacle avoidance and flying of a drone from one destination to another by simulating our drone.
 
-## TECK STACK
+## TECH STACK
 
 a)ROS:- ROS is Robot Operating System and it is a robotics framework which provides tools and libraries to help software developers to create robot applications . Ros consists of stacks , packages , nodes , topics , messages , services , header , bags, master, manifests and parameter server.
 

@@ -42,6 +42,18 @@ b)GAZEBO:- Gazebo is a powerful 3D simulation environment for autonomous robots 
 
 c)PYTHON:- Python is a powerful  and user-friendly language which we have used to write codes of obstacle avoidance and goal to goal.
 
+## FILE STRUCTURE
+
+.
++--src                            # Source Files
+|   +--obstacle_avd.py            # Integrated goal-to-goal with obstacle avoidance
+|    +--goal.py                   # Performs only goal-to-goal
++--EKLAVYA FINAL REPORT 2020.pdf  # Project Report
++--goal_to_goal.mp4               # Video showing only goal-to-goal with reduced speed and more accuracy
++--goal_to_goal_1.mp4             # Video showing only goal-to-goal with increased speed and less accuracy
++--README.md
++--LICENSE.md
+
  ##  GETTING STARTED:
  
  ## PREREQUISITES:
@@ -87,7 +99,7 @@ c)PYTHON:- Python is a powerful  and user-friendly language which we have used t
  ```
 ##   RESULTS AND DEMO
 
-[Here](https://drive.google.com/drive/folders/1nxyV9tvf0r-nfA7F3ttJ98836h8-ajW_?usp=sharing) is the video of our project
+[Here](https://drive.google.com/drive/folders/1nxyV9tvf0r-nfA7F3ttJ98836h8-ajW_?usp=sharing) are the videos of our project
 
 ## FUTURE WORK
 1. Our first step is to integrate obstacle avoidance and the code which we have written 

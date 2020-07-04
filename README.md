@@ -32,9 +32,9 @@ c)PYTHON:- Python is a powerful  and user-friendly language which we have used t
     To install Gazebo, visit the following link: http://gazebosim.org/tutorials?tut=install_ubuntu 
    Make sure the stand-alone Gazebo works by running in terminal:
  
-    $ gazebo
+   ``` $ gazebo ```
     
-    We have used gazebo 7.
+   We have used gazebo 7.
     
  3. You can also use ROS Development Studio instead of instaliing ROS AND Gazebo.
  
@@ -44,7 +44,7 @@ c)PYTHON:- Python is a powerful  and user-friendly language which we have used t
  
  1. Clone the repository.
 
-    git clone https://github.com/pkjagesia/Eklavya20-Drone.git 
+  ```  git clone https://github.com/pkjagesia/Eklavya20-Drone.git  ```
 
 ## USAGE:
  
@@ -56,7 +56,9 @@ c)PYTHON:- Python is a powerful  and user-friendly language which we have used t
  rosrun simple_controller obstacle_avd.py
  ```
 ##   RESULTS AND DEMO
-TODO: Write a project description.
+
+[Here](https://drive.google.com/file/d/1o4eBczH4bIGJL85M5fY-tJ3CIQDiWXJX/view?usp=sharing) is the video of our project
+
 ## FUTURE ASPECTS AND GOALS WE WANT TO ACHIEVE THROUGH THE PROJECT:-
 1. Our first step is to integrate obstacle avoidance and the code which we have written 
 for the drone to move from one destination to another within an environment of four walls .

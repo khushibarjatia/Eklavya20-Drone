@@ -18,9 +18,9 @@ TODO: Write a project description.
 1. Our first step is to integrate obstacle avoidance and the code which we have written 
 for the drone to move from one destination to another within an environment of four walls .
 
- 2.Our second step would be to implement obstacle detection code with obstacle avoidance as 
- this would be a great aid for the drone to perform then future tasks like geography mapping  ,
- aerial photography without having to worry about obstacles in its way.
+2.Our second step would be to implement obstacle detection code with obstacle avoidance as 
+this would be a great aid for the drone to perform then future tasks like geography mapping  ,
+aerial photography without having to worry about obstacles in its way.
 
 3. We aim to achieve our goal of obstacle detection through contour detection.
 Contour detection is based on detecting the outline of the object within the environment. It is preferred because it is based upon edge detection, which has been optimized in run time and complexity, therefore, allowing for near real-time run implementations.

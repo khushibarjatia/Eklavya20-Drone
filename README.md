@@ -5,18 +5,30 @@ Simulated drone model which flies to a given destination along with obstacle avo
 
 ## TABLE OF CONTENTS
    * [About the Project](#about-the-project)
-     Tech Stack
-     File Structure
-   * Getting Started
-     Prerequisites
-     Installation
-   * Usage
-   * Results and Demo
-   * Future Work
-   * Troubleshooting
-   * Contributors
-   * Acknowledgements and Resources
-   * License
+   
+     Tech Stack(#tech-stack)
+   
+     File Structure(#file-structure)
+     
+   * [Getting Started](#getting-started)
+     
+     [Prerequisites](#prerequisites)
+     
+     [Installation](#installation)
+   
+   * [Usage](#usage)
+   
+   * [Results and Demo](#results-and-demo)
+   
+   * [Future Work](#future-work)
+   
+   * [Troubleshooting](#troubleshooting)
+   
+   * [Contributors](#contributors)
+   
+   * [Acknowledgements] and Resources(#acknowledgeements-and-resources)
+   
+   * [License](#License)
 
 ##  ABOUT THE PROJECT
 1)GOALS WE AIM TO ACHIEVE :-
@@ -25,7 +37,7 @@ We aim to achieve obstacle avoidance and flying of a drone from one destination 
 2)WHY THIS PROJECT HAS BEEN CHOSEN:-
 Quadcopter drone which is becoming increasingly popular is used to capture video for promotional and surveillance purposes. The main reason to have obstacle avoidance is to prevent the drone from crashing, either through pilot error or when engaged in autonomous flight. For this we have simulated a drone and performed obstacle avoidance on it.
 
-3)TECHNOLGY USED IN THE PROJECT:-
+3)TECK STACK:-
 
 a)ROS:- ROS is Robot Operating System and it is a robotics framework which provides tools and libraries to help software developers to create robot applications . Ros consists of stacks , packages , nodes , topics , messages , services , header , bags, master, manifests and parameter server.
 

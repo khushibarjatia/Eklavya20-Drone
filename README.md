@@ -62,11 +62,37 @@ These are our future aspects of the project.
 
 ## TROUBLESHOOTING AND ERRORS:-
 Error #1
-TERM | DETAIL
------|-------
-Problem|Laserscan was giving error values
-Cause|It's range was so small that it was even detecting the landing gear of the drone
-Solution|Changed the range from 0.08 to 0.1
+
+TERM|DETAIL
+----|------
+Problem |The laserscan data was giving error values
+Cause|It was detecting the landing gear of the drone
+Solution|Changed the minimum range of detection from 0.08 to 0.1
+
+Error #2
+
+TERM|DETAIL
+----|------
+Problem|The messages for the drone to move forward were not getting published
+Cause|It takes sometime for the subscriber node to subscribe to a given topic , until then the messages being published are lost
+Solution|Used the get_num_connections() function to publish messages only when the subscribers become available.
+
+Error #3
+
+TERM|DETAIL
+----|-------
+Problem|The corners were not getting detected accurately
+Cause|The Rate at which the loop was running was comparatively slow but appropriate
+Solution|Modified the logic for detecting corners
+
+Error #4
+
+TERM|DETAIL
+----|------
+Problem|	The algorithm for goal to goal was not suitable for integrating with obstacle avoidance
+Cause|Obstacle avoidance algo used left-right turns and goal-to-goal used oblique turns
+Solution|Changed the algorithm for goal-to-goal to consist of left-right turns
+
 ## CONTRIBUTORS
 TODO: Write
 ## ACKNOWLEDGE AND RESOURCES

@@ -131,4 +131,4 @@ MIT License
 
 Copyright(c) 2020 Prerna Jagesia,Prachiti Barge,Samina Attari and Khushi Barjatia
 Go to [License] for full license
-Licensed under the [MIT License](License)
+Licensed under the MIT License .

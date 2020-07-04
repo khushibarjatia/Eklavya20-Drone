@@ -8,7 +8,7 @@ Drone simulation project
  
  PREREQUISITES:
  
- 1. ROS Installed:
+1. ROS Installed:
  
  To install ROS, visit the following link: http://wiki.ros.org/ROS/Installation 
  
@@ -27,7 +27,7 @@ Drone simulation project
  
  $ source devel/setup.bash
  
- 2. Gazebo Installed:
+2. Gazebo Installed:
  
  To install Gazebo, visit the following link: http://gazebosim.org/tutorials?tut=install_ubuntu 
  

@@ -15,12 +15,15 @@ Drone simulation project
     If you just installed ROS from apt on Ubuntu then you will have setup.*sh files in '/opt/ros/<distro>/', and you could source them like so:
    
     $ source /opt/ros/<distro>/setup.bash
+   
     Use the short name of your ROS distribution instead of <distro>.
   
     Let's create and build a catkin workspace:
  
     $ mkdir -p ~/catkin_ws/src
+    
     $ cd ~/catkin_ws/
+    
     $ catkin_make 
  
     Before continuing source your new setup.*sh file:

@@ -4,10 +4,10 @@
 Simulated drone model which flies to a given destination along with obstacle avoidance. 
 
 ## TABLE OF CONTENTS
-   * [About the Project](ABOUT THE PROJECT)
+   * About the Project
      Tech Stack
      File Structure
-   * [Getting Started](GETTING STARTED)
+   * Getting Started
      Prerequisites
      Installation
    * Usage

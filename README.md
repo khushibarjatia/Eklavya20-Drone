@@ -11,12 +11,6 @@ Drone simulation project
  1. ROS Installed:
  
     To install ROS, visit the following link: http://wiki.ros.org/ROS/Installation 
- 
-    If you just installed ROS from apt on Ubuntu then you will have setup.*sh files in '/opt/ros/<distro>/', and you could source them like so:
-
-    $ source /opt/ros/<distro>/setup.bash 
-   
-    Use the short name of your ROS distribution instead of <distro>.
   
     Let's create and build a catkin workspace:
  

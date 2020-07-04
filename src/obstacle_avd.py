@@ -203,7 +203,7 @@ class obstacle_avoidance():
 
         print('Heading towards y-coordinate')
         if (heading == -90 and (args.Y - y) > 0):
-
+            heading+=90
             self.rotate('left',90)
             while (args.Y - y) > 0:
                 self.speed.linear.x = 0.8
@@ -213,7 +213,7 @@ class obstacle_avoidance():
             self.vel_pub.publish(self.speed)
 
         elif (heading == -90 and (args.Y - y) < 0):
-           
+            heading-=90
             self.rotate('right',90)
                 
             while (args.Y - y) < 0:
@@ -224,7 +224,7 @@ class obstacle_avoidance():
             self.vel_pub.publish(self.speed)
 
         elif (heading == 90 and (args.Y - y) > 0):
-           
+            heading-=90
             self.rotate('right',90)
             while (args.Y - y) > 0 :
                 self.speed.linear.x = 0.8
@@ -235,8 +235,8 @@ class obstacle_avoidance():
 
         else:
            
-            self.rotate('left',180)
-            heading+=180
+            self.rotate('left',90)
+            heading+=90
             while (args.Y - y) < 0 :
                 self.speed.linear.x = 0.8
                 self.vel_pub.publish(self.speed)                

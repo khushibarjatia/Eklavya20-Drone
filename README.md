@@ -5,11 +5,9 @@ Simulated drone model which flies to a given destination along with obstacle avo
 
 ##  ABOUT THE PROJECT
 1)GOALS WE AIM TO ACHIEVE :-
-
 We aim to achieve obstacle avoidance and flying of a drone from one destination to another by simulating our drone.
 
 2)WHY THIS PROJECT HAS BEEN CHOSEN:-
-
 Quadcopter drone which is becoming increasingly popular is used to capture video for promotional and surveillance purposes. The main reason to have obstacle avoidance is to prevent the drone from crashing, either through pilot error or when engaged in autonomous flight. For this we have simulated a drone and performed obstacle avoidance on it.
 
 3)TECHNOLGY USED IN THE PROJECT:-
@@ -26,14 +24,13 @@ c)PYTHON:- Python is a powerful  and user-friendly language which we have used t
  
  1.ROS Installed:
  
-    To install ROS, visit the following link: http://wiki.ros.org/ROS/Installation
-    We have used ROS Kinetic distro.
+   To install ROS, visit the following link: http://wiki.ros.org/ROS/Installation
+   We have used ROS Kinetic distro.
     
  2. Gazebo Installed:
  
     To install Gazebo, visit the following link: http://gazebosim.org/tutorials?tut=install_ubuntu 
- 
-    Make sure the stand-alone Gazebo works by running in terminal:
+   Make sure the stand-alone Gazebo works by running in terminal:
  
     $ gazebo
     

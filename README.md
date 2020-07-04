@@ -22,7 +22,7 @@ Simulated drone model which flies to a given destination along with obstacle avo
    
    * [Future Work](#future-work)
    
-   * [Troubleshooting](#troubleshooting)
+   * [Troubleshooting and Errors](#troubleshooting-and-errors)
    
    * [Contributors](#contributors)
    

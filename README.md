@@ -73,6 +73,13 @@ c)PYTHON:- Python is a powerful  and user-friendly language which we have used t
  
  To use our project:
  
+ Clone our hector_quadrotor model using the following command:
+ 
+ ```
+ git clone https://bitbucket.org/theconstructcore/hector_quadrotor_sim.git
+ ```
+ 
+ 
  Open the desired world in gazebo simulator. Then run the following commands:
  ```
  roslaunch hector_quadrotor_demo put_robot_in_world.launch
@@ -109,11 +116,19 @@ Error #2
 
 TERM|DETAIL
 ----|------
+Problem |Code gave an error of "syntax error near unexpected token `(`"
+Cause|It could not find it's dependencies and libraries in CMakeLists.txt
+Solution|Added add_depndencies line and libraries required to make file executable
+
+Error #3
+
+TERM|DETAIL
+----|------
 Problem|The messages for the drone to move forward were not getting published
 Cause|It takes sometime for the subscriber node to subscribe to a given topic , until then the messages being published are lost
 Solution|Used the get_num_connections() function to publish messages only when the subscribers become available.
 
-Error #3
+Error #4
 
 TERM|DETAIL
 ----|-------
@@ -121,7 +136,7 @@ Problem|The corners were not getting detected accurately
 Cause|The Rate at which the loop was running was comparatively slow but appropriate
 Solution|Modified the logic for detecting corners
 
-Error #4
+Error #5
 
 TERM|DETAIL
 ----|------

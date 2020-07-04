@@ -8,36 +8,36 @@ Drone simulation project
  
  PREREQUISITES:
  
-1. ROS Installed:
+ 1. ROS Installed:
  
-  To install ROS, visit the following link: http://wiki.ros.org/ROS/Installation 
+    To install ROS, visit the following link: http://wiki.ros.org/ROS/Installation 
  
-  If you just installed ROS from apt on Ubuntu then you will have setup.*sh files in '/opt/ros/<distro>/', and you could source them like so:
+    If you just installed ROS from apt on Ubuntu then you will have setup.*sh files in '/opt/ros/<distro>/', and you could source them like so:
    
-  $ source /opt/ros/<distro>/setup.bash
-  Use the short name of your ROS distribution instead of <distro>.
+    $ source /opt/ros/<distro>/setup.bash
+    Use the short name of your ROS distribution instead of <distro>.
   
-  Let's create and build a catkin workspace:
+    Let's create and build a catkin workspace:
  
-  $ mkdir -p ~/catkin_ws/src
-  $ cd ~/catkin_ws/
-  $ catkin_make 
+    $ mkdir -p ~/catkin_ws/src
+    $ cd ~/catkin_ws/
+    $ catkin_make 
  
-  Before continuing source your new setup.*sh file:
+    Before continuing source your new setup.*sh file:
  
-  $ source devel/setup.bash
+    $ source devel/setup.bash
  
-2. Gazebo Installed:
+ 2. Gazebo Installed:
  
-  To install Gazebo, visit the following link: http://gazebosim.org/tutorials?tut=install_ubuntu 
+    To install Gazebo, visit the following link: http://gazebosim.org/tutorials?tut=install_ubuntu 
  
-  Make sure the stand-alone Gazebo works by running in terminal:
+    Make sure the stand-alone Gazebo works by running in terminal:
  
-  $ gazebo
+    $ gazebo
  
 ## INSTALLATION:
  
-1. Clone the repository.
+ 1. Clone the repository.
 
     git clone https://github.com/pkjagesia/Eklavya20-Drone.git 
 

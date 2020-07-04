@@ -1,49 +1,35 @@
 # Eklavya20-Drone
-Drone simulation project
 # DRONE SIMULATION PROJECT
+A Drone or Quadcopter is a Vehicle that has a large potential for performing tasks that are dangerous and costly for humans. Examples are inspection of high structures, humanitarian purposes or search and rescue missions . Quadcopters generally have two rotors spinning clockwise (CW) and other two rotors spinning counterclockwise (CCW). Flight control is provided by independent variation of the speed and hence lift and torque of each rotor. Pitch and roll are controlled by varying the net centre of thrust by varying the net torque. Quadrotors do not usually have cyclic pitch control, in which the angle of the blades varies dynamically as they turn around the rotor hub. 
 ##  ABOUT THE PROJECT
-   1)GOALS TO BE ACHIEVED
-   2)WHY PROJECT HAS BEEN CHOSEN
- ##  GETTING STARTED:-
- 
- PREREQUISITES:
- 
- 1. ROS Installed:
- 
-    To install ROS, visit the following link: http://wiki.ros.org/ROS/Installation 
- 
-    If you just installed ROS from apt on Ubuntu then you will have setup.*sh files in '/opt/ros/<distro>/', and you could source them like so:
+   1)GOALS WE AIM TO ACHIEVE :- 
    
-    $ source /opt/ros/<distro>/setup.bash
+   We aim to achieve obstacle avoidance and flying of a drone 
+   from one destination to another by simulating our drone.
    
-    Use the short name of your ROS distribution instead of <distro>.
+   2)WHY THIS PROJECT HAS BEEN CHOSEN:-
+   
+   Quadcopter drone which is becoming increasingly popular is used to capture video for promotional 
+   and surveillance purposes. The main reason to have obstacle avoidance is to prevent the drone from crashing, 
+   either through pilot error or when engaged in autonomous flight. For this we have simulated a drone and 
+   performed obstacle avoidance on it.
   
-    Let's create and build a catkin workspace:
- 
-    $ mkdir -p ~/catkin_ws/src
-    
-    $ cd ~/catkin_ws/
-    
-    $ catkin_make 
- 
-    Before continuing source your new setup.*sh file:
- 
-    $ source devel/setup.bash
- 
- 2. Gazebo Installed:
- 
-    To install Gazebo, visit the following link: http://gazebosim.org/tutorials?tut=install_ubuntu 
- 
-    Make sure the stand-alone Gazebo works by running in terminal:
- 
-    $ gazebo
- 
-## INSTALLATION:
- 
- 1. Clone the repository.
-
-    git clone https://github.com/pkjagesia/Eklavya20-Drone.git 
-
+  
+  3)TECHNOLGY USED IN THE PROJECT:-
+  
+   a)ROS:- ROS is Robot Operating System and it is a robotics framework which provides tools and libraries to help software developers to create robot applications . Ros consists of stacks , packages , nodes , topics , messages , services , header , bags, master, manifests and parameter server.
+   
+   b)GAZEBO:- Gazebo is a powerful 3D simulation environment for autonomous robots that is particularly suitable for testing object-avoidance and computer vision. 
+   
+   c)PYTHON:- Python is a powerful and user-friendly language used to write codes of obstacle avoidance and goal to goal.
+   
+   
+ ##  GETTING STARTED:-
+ 1)PREREQUISITES
+ 2)INSTALLATION
+TODO: Write a project description
+## Installation
+TODO: Describe the installation process
 ## Usage
 TODO: Write usage instructions
 ##   RESULTS AND DEMO
@@ -63,7 +49,39 @@ Contour detection is based on detecting the outline of the object within the env
 These are our future aspects of the project.
 
 ## TROUBLESHOOTING AND ERRORS:-
-TODO:WRITE DESCRIPTION
+Error #1
+
+TERM | DETAIL
+-----|-------
+Problem | The laserscan data was giving error values
+Cause | It was detecting the landing gear of the drone
+Solution | Changed the minimum range of detection from 0.08 to 0.1 
+
+Error #2
+
+TERM | DETAIL
+-----|-------
+Problem | The messages for the drone to move forward were not getting published
+Cause | It takes sometime for the subscriber node to subscribe to a given topic , until then the messages being published are lost
+Solution | Used the get_num_connections() function to publish messages only when the subscribers become available.
+
+Error #3
+
+TERM | DETAIL
+-----|-------
+Problem | The corners were not getting detected accurately
+Cause | The Rate at which the loop was running was comparatively slow but appropriate
+Solution | Modified the logic for detecting corners
+
+Error #4
+
+TERM | DETAIL
+-----|-------
+Problem | The algorithm for goal to goal was not suitable for integrating with obstacle avoidance
+Cause  | Obstacle avoidance algo used left-right turns and goal-to-goal used oblique turns
+Solution | Changed the algorithm for goal-to-goal to consist of left-right turns
+
+
 ## CONTRIBUTORS
 TODO: Write
 ## ACKNOWLEDGE AND RESOURCES

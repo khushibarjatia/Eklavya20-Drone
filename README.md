@@ -1,29 +1,34 @@
-# Eklavya20-Drone
+#Eklavya20-Drone
 Drone simulation project
 # DRONE SIMULATION PROJECT
+Simulated drone model which flies to a given destination along with obstacle avoidance. 
+
 ##  ABOUT THE PROJECT
-   1)GOALS TO BE ACHIEVED
-   2)WHY PROJECT HAS BEEN CHOSEN
+1)GOALS WE AIM TO ACHIEVE :-
+
+We aim to achieve obstacle avoidance and flying of a drone from one destination to another by simulating our drone.
+
+2)WHY THIS PROJECT HAS BEEN CHOSEN:-
+
+Quadcopter drone which is becoming increasingly popular is used to capture video for promotional and surveillance purposes. The main reason to have obstacle avoidance is to prevent the drone from crashing, either through pilot error or when engaged in autonomous flight. For this we have simulated a drone and performed obstacle avoidance on it.
+
+3)TECHNOLGY USED IN THE PROJECT:-
+
+a)ROS:- ROS is Robot Operating System and it is a robotics framework which provides tools and libraries to help software developers to create robot applications . Ros consists of stacks , packages , nodes , topics , messages , services , header , bags, master, manifests and parameter server.
+
+b)GAZEBO:- Gazebo is a powerful 3D simulation environment for autonomous robots that is particularly suitable for testing object-avoidance and computer vision.
+
+c)PYTHON:- Python is a powerful  and user-friendly language which we have used to write codes of obstacle avoidance and goal to goal.
+
  ##  GETTING STARTED:
  
  PREREQUISITES:
  
- 1. ROS Installed:
+ 1.ROS Installed:
  
     To install ROS, visit the following link: http://wiki.ros.org/ROS/Installation 
-  
-    Let's create and build a catkin workspace:
- 
-    $ mkdir -p ~/catkin_ws/src
+    We have used ROS Kinetic distro.
     
-    $ cd ~/catkin_ws/
-    
-    $ catkin_make 
- 
-    Before continuing source your new setup.*sh file:
- 
-    $ source devel/setup.bash
- 
  2. Gazebo Installed:
  
     To install Gazebo, visit the following link: http://gazebosim.org/tutorials?tut=install_ubuntu 
@@ -31,6 +36,8 @@ Drone simulation project
     Make sure the stand-alone Gazebo works by running in terminal:
  
     $ gazebo
+    
+    We have used gazebo 7.
     
  3. You can also use ROS Development Studio instead of instaliing ROS AND Gazebo.
  

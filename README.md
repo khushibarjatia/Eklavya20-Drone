@@ -26,18 +26,15 @@ Simulated drone model which flies to a given destination along with obstacle avo
    
    * [Contributors](#contributors)
    
-   * [Acknowledgements] and Resources(#acknowledgeements-and-resources)
+   * [Acknowledgements and Resources](#acknowledgements-and-resources)
    
    * [License](#License)
 
 ##  ABOUT THE PROJECT
-1)GOALS WE AIM TO ACHIEVE :-
+GOALS WE AIM TO ACHIEVE :-
 We aim to achieve obstacle avoidance and flying of a drone from one destination to another by simulating our drone.
 
-2)WHY THIS PROJECT HAS BEEN CHOSEN:-
-Quadcopter drone which is becoming increasingly popular is used to capture video for promotional and surveillance purposes. The main reason to have obstacle avoidance is to prevent the drone from crashing, either through pilot error or when engaged in autonomous flight. For this we have simulated a drone and performed obstacle avoidance on it.
-
-3)TECK STACK:-
+## TECK STACK:-
 
 a)ROS:- ROS is Robot Operating System and it is a robotics framework which provides tools and libraries to help software developers to create robot applications . Ros consists of stacks , packages , nodes , topics , messages , services , header , bags, master, manifests and parameter server.
 
@@ -47,7 +44,7 @@ c)PYTHON:- Python is a powerful  and user-friendly language which we have used t
 
  ##  GETTING STARTED:
  
- PREREQUISITES:
+ ## PREREQUISITES:
  
  1.ROS Installed:
  
@@ -85,7 +82,7 @@ c)PYTHON:- Python is a powerful  and user-friendly language which we have used t
 
 [Here](https://drive.google.com/file/d/1o4eBczH4bIGJL85M5fY-tJ3CIQDiWXJX/view?usp=sharing) is the video of our project
 
-## FUTURE ASPECTS AND GOALS WE WANT TO ACHIEVE THROUGH THE PROJECT:-
+## FUTURE WORK
 1. Our first step is to integrate obstacle avoidance and the code which we have written 
 for the drone to move from one destination to another within an environment of four walls .
 
@@ -134,7 +131,7 @@ Solution|Changed the algorithm for goal-to-goal to consist of left-right turns
 
 ## CONTRIBUTORS
 * MENTORS
-   1. Ms.Neha 
+   1. Neha Kurian 
    2. Mr.Omkar Sargar
    3. Mr.Lukesh
  * MEMBERS
@@ -147,13 +144,13 @@ Solution|Changed the algorithm for goal-to-goal to consist of left-right turns
    
    4.[Khushi Barjatia](https://github.com/khushibarjatia)
    
-## ACKNOWLEDGE AND RESOURCES
+## ACKNOWLEDGEMENT AND RESOURCES
 * [SRA VJTI](http://sra.vjti.info/) Eklavya 2020
 * [Obstacle avoidance algorithm](https://link.springer.com/chapter/10.1007/978-3-319-62533-1_7)
 * [ROS TUTORIALS](http://wiki.ros.org/ROS/Tutorials)
 * [Gazebo tutorials](http://gazebosim.org/tutorials)
 
-## License
+## LICENSE
 MIT License 
 
 Copyright(c) 2020 Prerna Jagesia,Prachiti Barge,Samina Attari and Khushi Barjatia

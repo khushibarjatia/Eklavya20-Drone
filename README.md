@@ -39,7 +39,7 @@ Drone simulation project
  
 1. Clone the repository.
 
-  git clone https://github.com/pkjagesia/Eklavya20-Drone.git 
+    git clone https://github.com/pkjagesia/Eklavya20-Drone.git 
 
 ## Usage
 TODO: Write usage instructions

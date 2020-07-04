@@ -18,7 +18,7 @@ TODO: Write a project description.
 1. Our first step is to integrate obstacle avoidance and the code which we have written 
 for the drone to move from one destination to another within an environment of four walls .
 
-2.Our second step would be to implement obstacle detection code with obstacle avoidance as 
+ 2. Our second step would be to implement obstacle detection code with obstacle avoidance as 
 this would be a great aid for the drone to perform then future tasks like geography mapping  ,
 aerial photography without having to worry about obstacles in its way.
 

@@ -36,12 +36,9 @@ We aim to achieve obstacle avoidance and flying of a drone from one destination 
 
 ## TECH STACK
 
-a)ROS:- ROS is Robot Operating System and it is a robotics framework which provides tools and libraries to help software developers to create robot applications . Ros consists of stacks , packages , nodes , topics , messages , services , header , bags, master, manifests and parameter server.
+[ROS](http://wiki.ros.org/Documentation)
 
-b)GAZEBO:- Gazebo is a powerful 3D simulation environment for autonomous robots that is particularly suitable for testing object-avoidance and computer vision.
-
-c)PYTHON:- Python is a powerful  and user-friendly language which we have used to write codes of obstacle avoidance and goal to goal.
-
+[GAZEBO](http://gazebosim.org/)
 ## FILE STRUCTURE
 ```
 .

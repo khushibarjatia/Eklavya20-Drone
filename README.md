@@ -166,6 +166,10 @@ Solution|Changed the algorithm for goal-to-goal to consist of left-right turns
 * [Gazebo tutorials](http://gazebosim.org/tutorials)
 
 ## LICENSE
+
+
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+
 Licensed under the [MIT License](LICENSE) .
 
 Copyright(c) 2020 Prerna Jagesia,Prachiti Barge,Samina Attari and Khushi Barjatia

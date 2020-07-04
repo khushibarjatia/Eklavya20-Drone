@@ -31,6 +31,10 @@ Drone simulation project
     Make sure the stand-alone Gazebo works by running in terminal:
  
     $ gazebo
+    
+ 3. You can also use ROS Development Studio instead of instaliing ROS AND Gazebo.
+ 
+    To get started with RDS, visit the following link: https://rds.theconstructsim.com 
  
 ## INSTALLATION:
  

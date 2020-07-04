@@ -151,8 +151,7 @@ Solution|Changed the algorithm for goal-to-goal to consist of left-right turns
 * [Gazebo tutorials](http://gazebosim.org/tutorials)
 
 ## LICENSE
-MIT License 
+Licensed under the MIT License .
 
 Copyright(c) 2020 Prerna Jagesia,Prachiti Barge,Samina Attari and Khushi Barjatia
-Go to [License] for full license
-Licensed under the MIT License .
+Go to [License](Eklavya20-Drone/license) for full license

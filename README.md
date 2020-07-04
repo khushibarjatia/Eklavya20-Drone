@@ -173,4 +173,4 @@ Solution|Changed the algorithm for goal-to-goal to consist of left-right turns
 Licensed under the [MIT License (MIT)](LICENSE.md) .
 
 Copyright(c) 2020 Prerna Jagesia,Prachiti Barge,Samina Attari and Khushi Barjatia
-Go to [License](Eklavya20-Drone/LICENSE) for full license
+Go to [License](Eklavya20-Drone/LICENSE.md) for full license

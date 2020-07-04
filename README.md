@@ -4,7 +4,7 @@ Drone simulation project
 ##  ABOUT THE PROJECT
    1)GOALS TO BE ACHIEVED
    2)WHY PROJECT HAS BEEN CHOSEN
- ##  GETTING STARTED:-
+ ##  GETTING STARTED:
  
  PREREQUISITES:
  
@@ -42,7 +42,7 @@ Drone simulation project
 
     git clone https://github.com/pkjagesia/Eklavya20-Drone.git 
 
-## Usage
+## USAGE:
 TODO: Write usage instructions
 ##   RESULTS AND DEMO
 TODO: Write a project description.

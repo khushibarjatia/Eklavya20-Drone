@@ -30,11 +30,7 @@ c)PYTHON:- Python is a powerful  and user-friendly language which we have used t
  2. Gazebo Installed:
  
     To install Gazebo, visit the following link: http://gazebosim.org/tutorials?tut=install_ubuntu 
-   Make sure the stand-alone Gazebo works by running in terminal:
- 
-   ``` $ gazebo ```
-    
-   We have used gazebo 7.
+    We have used gazebo 7.
     
  3. You can also use ROS Development Studio instead of instaliing ROS AND Gazebo.
  
@@ -44,7 +40,10 @@ c)PYTHON:- Python is a powerful  and user-friendly language which we have used t
  
  1. Clone the repository.
 
-  ```  git clone https://github.com/pkjagesia/Eklavya20-Drone.git  ```
+  ``` 
+  git clone https://github.com/pkjagesia/Eklavya20-Drone.git 
+  
+  ```
 
 ## USAGE:
  
@@ -107,8 +106,19 @@ Cause|Obstacle avoidance algo used left-right turns and goal-to-goal used obliqu
 Solution|Changed the algorithm for goal-to-goal to consist of left-right turns
 
 ## CONTRIBUTORS
-TODO: Write
+* MENTORS
+   1. Ms.Neha 
+   2. Mr.Omkar Sargar
+   3. Mr.Lukesh
+   
 ## ACKNOWLEDGE AND RESOURCES
-TODO: Write 
+* [SRA VJTI](http://sra.vjti.info/) Eklavya 2020
+* [Obstacle avoidance algorithm](https://link.springer.com/chapter/10.1007/978-3-319-62533-1_7)
+* [ROS TUTORIALS](http://wiki.ros.org/ROS/Tutorials)
+* [Gazebo tutorials](http://gazebosim.org/tutorials)
+
 ## License
-TODO: Write license
+MIT License
+
+Copyright(c) 2020 Prerna Jagesia,Prachiti Barge,Samina Attari and Khushi Barjatia
+Go to [License] for full license

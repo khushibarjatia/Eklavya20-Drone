@@ -116,14 +116,11 @@ Images of worlds in which we have tested:
 1. Our first step is to integrate obstacle avoidance and the code which we have written 
 for the drone to move from one destination to another within an environment of four walls .
 
- 2. Our second step would be to implement obstacle detection code with obstacle avoidance as 
-this would be a great aid for the drone to perform then future tasks like geography mapping  ,
-aerial photography without having to worry about obstacles in its way.
+ 2. Our second step would be to implement obstacle  avoidance 
+with moving obstacles.
 
-3. We aim to achieve our goal of obstacle detection through contour detection.
-Contour detection is based on detecting the outline of the object within the environment. It is preferred because it is based upon edge detection, which has been optimized in run time and complexity, therefore, allowing for near real-time run implementations.
-
-4. We aim to expand on our avoidance goal in the near future by implementing SLAM,so the quadrotor can create a map of the environment it is navigating. When this path is to be chosen, a stereo camera can be mounted to the quadrotor for distance estimation. Supporting this, LiDAR can also be used, and the data acquired by the system can be processed and fused for a detection algorithm.
+3. We aim to then try to do achieve our goal of obstacle detection.
+4. We aim to expand on our avoidance goal in the near future by implementing SLAM,so the quadrotor can create a map of the environment it is navigating. 
 These are our future aspects of the project.
 
 ## TROUBLESHOOTING AND ERRORS:-

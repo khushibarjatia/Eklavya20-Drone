@@ -100,9 +100,12 @@ Images of worlds in which we have tested:
 
 ![Empty_wall](Empty_wall.png)
 
+
 ![Empty_four_walls](Empty_four_walls.png)
 
-![Circuit] (Circuit)
+
+![Circuit] (Circuit.png)
+
 
 [Here](https://drive.google.com/drive/folders/1nxyV9tvf0r-nfA7F3ttJ98836h8-ajW_?usp=sharing) are the videos of our project
 

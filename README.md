@@ -119,7 +119,7 @@ for the drone to move from one destination to another within an environment of f
  2. Our second step would be to implement obstacle  avoidance 
 with moving obstacles.
 
-3. We aim to then try to do achieve our goal of obstacle detection.
+3. We  then aim to try to achieve our goal of obstacle detection.
 4. We aim to expand on our avoidance goal in the near future by implementing SLAM,so the quadrotor can create a map of the environment it is navigating. 
 These are our future aspects of the project.
 

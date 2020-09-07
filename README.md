@@ -166,9 +166,12 @@ Solution|Changed the algorithm for goal-to-goal to consist of left-right turns
 
 ## CONTRIBUTORS
 * MENTORS
-   1. Neha Kurian 
-   2. Mr.Omkar Sargar
-   3. Mr.Lukesh
+   1. [Ms.Neha Kurian](https://github.com/Neha-Kurian) 
+   
+   2. [Mr.Omkar Sargar](https://github.com/OSSome01)
+   
+   3. [Mr.Lukesh](https://github.com/luke2103)
+   
  * MEMBERS
  
    1.[Ms.Prerna Jagesia](https://github.com/pkjagesia)
